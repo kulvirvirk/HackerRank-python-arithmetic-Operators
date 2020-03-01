@@ -14,7 +14,9 @@
 
 a = int(input('enter a:'))
 b = int(input('enter b:'))
+if ((a and b) >= 1) and ((a and b) <=10**10):
+   print(a + b)
+   print(a-b)
+   print(a*b)
 
-print(a + b)
-print(a-b)
-print(a*b)
+else: print('Value should be between 1 to 10**10, re run the program')
